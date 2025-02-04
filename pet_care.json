@@ -1,0 +1,70 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Buddy",
+      "species": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "available": true,
+      "description": "Friendly and playful dog."
+    },
+    {
+      "id": 2,
+      "name": "Whiskers",
+      "species": "Cat",
+      "breed": "Siamese",
+      "age": 2,
+      "available": true,
+      "description": "Independent and affectionate cat."
+    },
+    {
+      "id": 3,
+      "name": "Rocky",
+      "species": "Dog",
+      "breed": "Labrador",
+      "age": 5,
+      "available": false,
+      "description": "Energetic and loyal dog."
+    },
+    {
+      "id": 4,
+      "name": "Luna",
+      "species": "Cat",
+      "breed": "Persian",
+      "age": 1,
+      "available": true,
+      "description": "Calm and gentle cat."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": "123 Main St"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": "456 Oak Ave"
+    }
+  ],
+  "adoptions": [
+    {
+      "id": 1,
+      "pet_id": 3,
+      "user_id": 1,
+      "application_date": "2024-07-26",
+      "status": "approved"
+    },
+    {
+      "id": 2,
+      "pet_id": 2,
+      "user_id": 2,
+      "application_date": "2024-07-27",
+      "status": "pending"
+    }
+  ]
+}
