@@ -76,9 +76,9 @@ The following endpoints are available:
   "users": [
     {
       "id": 1,
-      "name": "John Doe",
-      "email": "john.doe@example.com",
-      "address": "123 Main St"
+      "name": "P1",
+      "email": "p1@example.com",
+      "address": "123 any St"
     },
 
   ],
@@ -88,7 +88,7 @@ The following endpoints are available:
       "pet_id": 3,
       "user_id": 1,
       "application_date": "2024-07-26",
-      "status": "approved" // "pending", "rejected"
+      "status": "approved" 
     },
 
   ]
